@@ -64,3 +64,49 @@ if (age >= 21) {
 } else {
     console.log("vous etes majeurs mais pas au usa");
 }
+function direBonjour() {
+    console.log("Bonjour");
+}
+direBonjour();
+
+function direBonjourAkelkain(name) {
+    
+    console.log("Bonjour " + name);
+}
+
+direBonjourAkelkain(prenom);
+
+function hello(name,city = "lyon") {
+    console.log("Bonjour " + name);
+    console.log("vous habitez " + city)
+}
+hello(prenom);
+
+function add(a,b) {
+    console.log(a+b);
+    return a+b
+}
+
+console.log(add(9,5));
+
+function div(a,b) {
+    if (b !== 0) {
+        return a/b
+    } 
+    
+
+}
+
+console.log(div(9,5));
+
+function positive(num) {
+    return (num > 0);
+}
+console.log(positive(5));
+    
+
+    
+
+
+
+
