@@ -103,10 +103,33 @@ function positive(num) {
     return (num > 0);
 }
 console.log(positive(5));
-    
 
-    
-
-
+let Verifier_Nombre;
+Verifier_Nombre = isNaN(age);
 
 
+console.log("la prochaine ligne c'est la variable age ET Verifier_Nombre ")
+console.log(age ,Verifier_Nombre);
+
+
+   
+function isValid(userinput) {
+    if(!isNaN(parseInt(userinput))) {
+        userinput = parseInt(userinput)
+        if(userinput > 12 && userinput < 90 ) {return true
+        }
+    }
+    else {
+        return false;
+    }
+
+}
+
+console.log(isValid("69"));
+
+let resultat = isValid(age);
+
+let resultatInverse = !resultat;
+
+console.warn(resultat);
+console.error(resultatInverse);
