@@ -35,7 +35,7 @@ const indentity = "Bonjour" + " " + prenom + " " + "vous avez" + " " + age + " "
 
 // cette opération est une concaténation
 
-
+//___________________________________________________________________________________________________________________________
 
 let majuscule = indentity.toUpperCase();
 
@@ -44,7 +44,7 @@ console.log("indentity:", indentity);
 
 // la variable identity n'a pas été modifié mais la fonction toUpperCase a été appliqué à majuscule
 
-
+//_______________________________________________________________________________________________________________
 age = prompt("Veuillez saisir votre age");
 if (age <= 0) {
     console.log("vous ete un poisson pané");
@@ -103,7 +103,7 @@ function positive(num) {
     return (num > 0);
 }
 console.log(positive(5));
-
+//_______________________________________________________________________________________________________________
 let Verifier_Nombre;
 Verifier_Nombre = isNaN(age);
 
@@ -133,3 +133,49 @@ let resultatInverse = !resultat;
 
 console.warn(resultat);
 console.error(resultatInverse);
+//__________________________________________________________________________________________________________
+console.log(0);
+console.log(1);
+console.log(2);
+console.log(3);
+console.log(4);
+//_____________________________________________________________________________________________
+
+// let index = 0 ;
+// while   (index < 4 )
+//  {
+//   index++
+//   console.error(index);
+
+
+//_______________________________________________________
+
+
+// let index = 99 ; 
+// while (index > 3 ) 
+// {
+//    index -=3
+//    console.warn(index);
+// }
+
+
+
+let index = 0;
+let jaaj = "";
+
+while(index <= 100) {
+    if(index <= 10) {
+        jaaj += index;
+    }
+    if(index >= 90 && index <= 100) {
+        jaaj += index;
+    }
+
+    index++;
+}
+console.log(jaaj);
+
+
+
+
+
