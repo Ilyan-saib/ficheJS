@@ -195,3 +195,25 @@ do {
    id++;
 } while(id > 100);
 // cela ne fonctionne pas car le while exige de compter id +1 a partir de 100 or, id est égal a 0 
+
+let ages = [14,14,14,15,15,15,16,16,16,16,16,17]
+
+console.log(ages[0]);
+console.log(ages[1]);
+console.log(ages[2]);
+console.log(ages[3]);
+//__________________________________________________________________________________________________________________________________________________________________________
+
+let longeur = ages.length
+console.warn(longeur);
+
+
+//la longeur du tableau est égale au dernier index - 1
+
+console.log(ages[11]);
+
+let megatron = 0;
+while (megatron <= ages.length-1){
+    console.log(ages[megatron]);
+    megatron++;
+}
